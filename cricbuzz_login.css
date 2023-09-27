@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 10px;
+    background: #E3E6E3;
+    font-family: helvetica, "Segoe UI", Arial, sans-serif
+}
+
+.container {
+    width: 980px;
+    margin: auto;
+    /* border:1px solid black; */
+
+}
+
+.header {
+    height: 50px;
+    background: #009270;
+}
+
+.header img {
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.login-form {
+    background: white;
+
+    margin-top: 5px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+h2 {
+    position: relative;
+    margin: 0;
+    padding: 40px 0;
+}
+
+h2::after {
+    content: '';
+    width: 100px;
+    /* height:100px; */
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    top: 80px;
+    left: 430px;
+    position: absolute;
+
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #E3E6E3;
+    width: 378px;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.email .icon {
+    background: #E3E6E3;
+    display: inline-block;
+    padding: 15px;
+    /* border-radius: 5px; */
+
+}
+
+
+
+.email input {
+    padding: 15px 30px;
+    width: 270px;
+    /* border-radius:5px */
+}
+
+
+.content-or {
+    padding: 10px 0;
+    font-weight: 400
+}
+
+.code-select {
+    background: #E3E6E3;
+    padding: 15px 0px;
+    /* border-radius: 5px; */
+}
+
+.privacy-policy {
+    margin-top: 70px;
+    font-size: 10px;
+    font-weight: 300;
+    color: hsla(0, 0%, 58%, .87);
+}
+
+.privacy-policy a {
+    text-decoration: none;
+    color: #0579bc
+}
+
+.continue-btn {
+    width: 332px;
+    padding: 11px;
+    background: #71cab6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.signup-text {
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.signup-btn {
+    padding: 5px 30px;
+    background: black;
+    color: white;
+    border-radius: 50px;
+}
